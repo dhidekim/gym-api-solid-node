@@ -31,6 +31,7 @@
   },
   "dependencies": {
     "@prisma/client": "4.10.1",
+    "03-api-solid": "file:",
     "bcryptjs": "2.4.3",
     "dotenv": "16.0.3",
     "fastify": "4.29.0",
