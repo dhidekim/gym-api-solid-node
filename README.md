@@ -30,3 +30,13 @@ GymPass style app.
 - [x] Os dados da aplicação precisam estar persistidos em um banco PostgreSQL;
 - [x] Todas listas de dados precisam estar paginadas com 20 itens por página;
 - [x] O usuário deve ser identificado por um JWT (JSON Web Token);
+
+Para rodar o projeto local:
+
+- Faça o clone do projeto em sua máquina.
+- Instale as dependência: npm i
+- Crie no seu projeto .env com base no .env.example
+- Suba o docker: docker compose up -d
+- Faça a migration da base de dados: npx prisma migrate dev
+- Inicie o projeto: npm run start:dev
+- Utilize o insomnia ou postman para realizar as consulta na API
